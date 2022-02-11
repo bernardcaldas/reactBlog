@@ -83,6 +83,8 @@ export default function Home({postsPagination}: HomeProps) {
     setPosts([...posts, ...newPosts]);
   }
 
+
+
   return (
     <>
     <Head>
